@@ -1,10 +1,9 @@
 export interface PillProps {
-  text: string;
-  color?: string;
+  title: string;
 }
 
 export interface ButtonProps {
   size: 'small' | 'medium' | 'large';
   shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
-  children: React.ReactNode;
+  title: string;
 }
